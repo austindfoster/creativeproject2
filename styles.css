@@ -1,0 +1,51 @@
+body {
+    background-color: #91EBC7;
+    color: #0D5236;
+}
+
+a {
+    border-color: #0A5235;
+    color: #0A5235;
+    border-style: groove;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+a:hover {
+    border-color: #126e49;
+    color: white;
+    fill: white;
+    padding: 12px;
+    background-color: #50e4a9;
+}
+
+label {
+    color: #0A5235;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+
+.darken {
+    fill: #0D5236;
+    color: #0D5236;
+}
+
+.row-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+}
