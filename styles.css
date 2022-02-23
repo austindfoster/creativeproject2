@@ -4,24 +4,48 @@ body {
 }
 
 a {
-    border-color: #0A5235;
-    color: #0A5235;
-    border-style: groove;
-    border-radius: 50px;
     text-decoration: none;
     padding: 8px;
+    color: #0D5236;
 }
 
-a:hover {
-    border-color: #126e49;
+.a:hover {
     color: white;
     fill: white;
     padding: 12px;
     background-color: #50e4a9;
 }
 
+.round-input {
+    border-color: #0A5235;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    background-color: #61e0ad;
+    color: #0A5235;
+}
+
 label {
     color: #0A5235;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#criteria {
+    width: 100%;
+    background-color: blue;
+}
+
+#seachType {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 100%;
 }
 
 .center {
@@ -35,7 +59,7 @@ label {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50px;
+    border-style: none;
 }
 
 .darken {
@@ -48,4 +72,14 @@ label {
     flex-direction: column;
     justify-content: center;
     margin: 1%;
+}
+
+.expand {
+    width: 100%;
+    border-style: none;
+    background-color: #0A5235;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: large;
 }
